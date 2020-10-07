@@ -86,28 +86,17 @@ li.selected > span{
     width: 50%;
 }
 
-.right-content{
-    float: left;
-    width: 50%;
-    padding: 0 40px;
-}
-.right-content .img{
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    background-color: black;  
-    border: 10px solid black;
-    margin: 3px;
-}
-
 .left-content h2{
     color: #509d87;
     font-weight: normal;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .left-content p{
     padding: 10px 0;
+    margin-bottom: 20px;
+    color: #1b704d;
 }
 
 .left-content form input{
@@ -120,8 +109,8 @@ li.selected > span{
     border: 3px solid #ccc;
     border-radius: 130px;
     padding-left: 15px;
+    margin: 10px 0;
 } 
-
 
 .left-content form input[type=submit]{
     width: 150px;
@@ -132,6 +121,7 @@ li.selected > span{
     border-radius: 120px;
     cursor: pointer;
     font-size: 15px;
+    margin: 10px 0;
 } 
 
 .left-content span{
@@ -140,6 +130,16 @@ li.selected > span{
     margin-top: 20px;
 }
 
+.right-content{
+    float: left;
+    width: 50%;
+    padding: 0 40px;
+}
 .right-content .img{
     float: left;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: black;  
+    margin: 3px;
 }
