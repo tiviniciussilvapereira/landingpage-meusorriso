@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 900px;
+    padding: 0 2%;
+    margin: auto;
+}
+
+section.header-wrapper{
+    width: 100%;
+    min-height: 700px;
+    padding: 30px 0;
+    background-color: aquamarine;
+}
+
+header{
+    border-bottom: 3px solid rgba(80, 157, 135, 0.3);
+    padding-bottom: 15px;
+}
+
+.logo{
+    width: 166px;
+    height: 64px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+
+nav{
+    float: left;
+    padding: 16px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+.telefone span{
+    color: white;
+    float: left;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+}
+
+li.selected{
+    color: #509d87;
+    position: relative;
+}
+
+li.selected > a{
+    color: inherit;
+}
+li.selected > span{
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 3px;
+    background: #509d87;
+}
+
+.header-content{
+    padding: 60px;
+}
+.left-content{
+    float: left;
+    width: 50%;
+}
+
+.right-content{
+    float: left;
+    width: 50%;
+    padding: 0 40px;
+}
+.right-content .img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: black;  
+    border: 10px solid black;
+    margin: 3px;
+}
+
+.left-content h2{
+    color: #509d87;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.left-content p{
+    padding: 10px 0;
+}
+
+.left-content form input{
+    display: inline-block;
+} 
+
+.left-content form input[type=email]{
+    width: 250px;
+    height: 40px;
+    border: 3px solid #ccc;
+    border-radius: 130px;
+    padding-left: 15px;
+} 
+
+
+.left-content form input[type=submit]{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-color: #00daaa;
+    color: white;
+    border-radius: 120px;
+    cursor: pointer;
+    font-size: 15px;
+} 
+
+.left-content span{
+    color: hsl(163, 44%, 51%);
+    display: block;
+    margin-top: 20px;
+}
+
+.right-content .img{
+    float: left;
+}
