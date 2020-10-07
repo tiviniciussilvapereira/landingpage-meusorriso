@@ -1,0 +1,17 @@
+@media screen and (max-width: 980px){
+    .left-content{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .right-content{
+        float: none;
+        display: none;
+    }
+    .header-wrapper  nav{
+    display: none;
+    }
+    .telefone{
+        display: none;
+    }
+}
