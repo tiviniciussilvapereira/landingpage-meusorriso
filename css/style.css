@@ -133,8 +133,10 @@ li.selected > span{
 .right-content{
     float: left;
     width: 50%;
-    padding: 0 40px;
+    padding-left: 40px;
+    
 }
+
 .right-content .img{
     float: left;
     width: 160px;
@@ -142,4 +144,36 @@ li.selected > span{
     border-radius: 50%;
     background-color: black;  
     margin: 3px;
+}
+
+.diferencial-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-dif{
+    width: 64px;
+    height: 64px;
+    background-color: lightcoral;
+    margin-bottom: 15px;
+}
+
+.diferencial-single{
+    width: 33.3%;
+    padding: 20px;
+}
+
+.diferencial-single h2{
+    font-size: 30px;
+    color: #777777;
+    margin: 30px 0;
+}
+
+.diferencial-single h2 > b{
+    color: #7dd5d0;
+}
+
+.diferencial-single p{
+    font-size: 14px;
+    color: #2b2b2b;
 }
